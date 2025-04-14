@@ -1,0 +1,17 @@
+Project 1: Loan Prediction Analysis
+Overview: Developed a binary classification model to predict loan approvals using a real-world financial dataset.
+
+Tech Stack: Python, Pandas, scikit-learn, Matplotlib, Seaborn
+
+Key Steps:
+
+Performed data cleaning and preprocessing including one-hot encoding and feature scaling.
+
+Engineered new features like EMI from raw loan data.
+
+Trained and evaluated Logistic Regression, Decision Tree, and Random Forest models.
+
+Used ROC-AUC and confusion matrix to assess model performance.
+
+Outcome: Achieved reliable predictions and learned valuable lessons on handling imbalanced classification problems.
+
