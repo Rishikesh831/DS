@@ -1,0 +1,26 @@
+Absenteeism Analysis & Prediction Dashboard
+Overview: Analyzed employee absenteeism patterns using HR and health-related data to identify key factors influencing absence behavior.
+
+Objective: To support HR decisions by uncovering trends and creating a predictive, interactive dashboard to monitor employee attendance risk.
+
+Tech Stack: Python (for data preprocessing and modeling), Power BI (for dashboard deployment), scikit-learn, Pandas
+
+Key Highlights:
+
+Cleaned and transformed raw absenteeism data, handling missing values and encoding categorical variables.
+
+Created new features like absenteeism categories (low/medium/high) and absenteeism score.
+
+Trained a classification model to predict absenteeism risk using logistic regression.
+
+Deployed a Power BI dashboard with:
+
+Absenteeism risk segmentation
+
+Filters by department, reason, and age
+
+Visual insights on monthly and weekly trends
+
+Predictive output integrated as a column for decision support
+
+Outcome: Enabled real-time, interactive absenteeism tracking for HR teams through Power BI, enhancing visibility into behavioral patterns and employee wellness.
