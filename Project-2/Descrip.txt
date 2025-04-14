@@ -1,0 +1,21 @@
+Project 2: Store Sales Forecasting (Time Series with XGBoost)
+Overview: Built a time series forecasting model for predicting item sales using XGBoost.
+
+Dataset: Kaggle’s “Store Item Demand Forecasting Challenge”
+
+Tech Stack: Python, Pandas, XGBoost, Matplotlib
+
+Feature Engineering:
+
+Added lag features, difference features, and rolling statistics (mean, std).
+
+Considered time trends, seasonality, and store-item interactions.
+
+Modeling:
+
+Trained an XGBoost regressor on preprocessed data without additional test-train splits (already provided).
+
+Tuned hyperparameters and predicted future demand for unseen data.
+
+Outcome: Learned how boosting methods handle time series, gained deep insights into time-based feature engineering.
+
