@@ -1,0 +1,32 @@
+Project 6: Handwritten Digit Recognition using MNIST
+Overview: Built a deep learning model to classify handwritten digits (0–9) from the MNIST dataset using convolutional neural networks (CNNs).
+
+Objective: To develop a robust image classification model capable of recognizing digits from grayscale 28x28 pixel images.
+
+Dataset:
+
+MNIST — 60,000 training and 10,000 test images of handwritten digits.
+
+Each image is a 28x28 pixel grayscale image representing a digit.
+
+Tech Stack: Python, TensorFlow/Keras, NumPy, Matplotlib, Seaborn
+
+Steps & Highlights:
+
+Data Preprocessing: Normalized pixel values, reshaped inputs, and performed one-hot encoding on the target labels.
+
+Model Architecture:
+
+Used CNN layers (Conv2D, MaxPooling2D) followed by Dropout and Dense layers.
+
+Added ReLU activations and softmax in the final layer for multiclass classification.
+
+Training: Trained the model with categorical cross-entropy loss and Adam optimizer.
+
+Evaluation: Achieved over 98% accuracy on the test dataset.
+
+Visualization: Plotted confusion matrix and visualized correct and incorrect predictions.
+
+Model Deployment (Optional): Saved the trained model using .h5 format for deployment.
+
+Outcome: Successfully built an accurate digit recognition model with real-time inference capabilities — ideal for OCR applications, educational tools, and embedded devices.
