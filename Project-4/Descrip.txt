@@ -1,0 +1,31 @@
+ Project 5: Property Classification Model
+Overview: Built a classification model to categorize real estate properties based on features like area, location, and amenities.
+
+Objective: To assist real estate stakeholders in automatically classifying properties into predefined categories (e.g., residential, commercial, industrial) using structured data.
+
+Dataset: Included fields such as property size, location, price, number of bedrooms/bathrooms, furnishing status, and more.
+
+Tech Stack: Python, Pandas, Scikit-learn, Matplotlib, Seaborn
+
+Steps & Highlights:
+
+Cleaned the dataset by handling missing values and converting categorical features using one-hot encoding.
+
+Performed exploratory data analysis (EDA) to identify trends and feature importance.
+
+Engineered features like price per square foot and property density.
+
+Applied and compared multiple classification models:
+
+Logistic Regression
+
+Random Forest
+
+XGBoost Classifier
+
+Evaluated models using accuracy, precision, recall, and ROC-AUC scores.
+
+Final model achieved high classification accuracy and was saved for future deployment or integration.
+
+Outcome: Developed a robust classification pipeline capable of accurately predicting property categories based on descriptive features — beneficial for real estate listings, property valuation tools, and market segmentation.
+
